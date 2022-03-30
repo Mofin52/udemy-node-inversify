@@ -1,0 +1,34 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node \\ weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Alexander Velikorechin",
+  "license": "ISC",
+  "homepage": "https://velikorechin.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.io"
+  },
+  "bugs": {
+    "url": "https://velikorechin.ru",
+    "email": "a.velikorechin@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
